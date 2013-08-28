@@ -1,0 +1,94 @@
+/*CSS Zen Garden 'Lazy Lilac*/
+/*Ren Jones CC BY-NC-SA*/
+@import url(http://fonts.googleapis.com/css?family=Tangerine: 400, 700);
+
+
+body{
+    background-image: url(http://i1351.photobucket.com/albums/p798/rendianajones/lilacgingham_zps0928fa0c.png);
+}
+
+
+h1, h2, h3{
+    font-family: 'Tangerine', cursive;
+}
+h1, h2{
+    display: inline-block;
+    font-weight: bold;
+}
+h1:after{
+    content:': ';
+}
+
+.summary{
+    position: absolute;
+    top: 50px;
+    left: 2px;
+    font-weight: bold;
+}
+
+.preamble {
+    position: absolute;
+    top: 150px;
+    left: 2px;
+    background-color: #fffff0;
+    margin: 10px;
+    float: left;
+    width: 60%;
+}
+
+.explanation{
+    position: absolute;
+    top: 400px;
+    left: 2px;
+    background-color: #fffff0;
+    margin: 10px;
+    float: left;
+    width: 60%;
+}
+
+.participation{
+    position: absolute;
+    top: 650px;
+    left: 2px;
+    background-color: #fffff0;
+    margin: 10px;
+    float: left;
+    width: 60%;
+}
+
+.benefits{
+    position: absolute;
+    top: 940px;
+    left: 2px;
+    background-color: #fffff0;
+    margin: 10px;
+    float: left;
+    width: 60%;
+}
+
+.requirements{
+    position: absolute;
+    top: 1100px;
+    left: 2px;
+    background-color: #fffff0;
+    margin: 10px;
+    float: left;
+    width: 60%;
+}
+
+.sidebar{
+    position: relative;
+    background-color: #fffff0;
+    margin: 10px;
+    float: right;
+    width: 30%;
+}
+
+
+footer{
+    position: relative;
+    bottom: -1500px;
+    background-color: #fffff0;
+    width: 95%;
+    clear: both;
+}
